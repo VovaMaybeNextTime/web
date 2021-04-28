@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="casinoStyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+    body,
+    html {
+        height: 100%;
+        font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url("fishka.jpg");
+        min-height: 75%;
+    }
+
+    .menu {
+        display: none;
+    }
+</style>
+
+<body>
+
+
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+        </div>
+        <div class="w3-display-middle w3-center">
+    </header>
+    <div class="w3-sand w3-grayscale w3-large">
+
+        <div class="w3-container" id="about">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CASINO</span></h5>
+                <p>Руле́тка (фр. roulette — «колёсико») — азартная игра, представляющая собой вращающееся колесо с 36
+                    секторами красного и чёрного цветов и 37-м зелёным сектором «зеро» с обозначением нуля (в
+                    американском варианте два зелёных — 0 и 00, итого 38 секторов). Игроки, играющие в рулетку, могут
+                    сделать ставку на выпадение шарика на цвет (красное или чёрное), чётное или нечётное число, диапазон
+                    (1—18 или 19—36) или конкретное число.</p>
+                <p> Крупье запускает шарик над колесом рулетки, который движется в сторону, противоположную вращению
+                    колеса рулетки, и в конце концов выпадает на один из секторов. Выигрыши получают все, чья ставка
+                    сыграла (ставка на цвет, диапазон, чётное-нечётное или номера).</p>
+                <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p><i>Среди историков ходят несколько версий о том, когда и где появилась рулетка. По мнению Эрика
+                            Белла, изобретателем прототипа рулетки является Блез Паскаль, который разрабатывал вечный
+                            двигатель и представил примитивную форму рулетки как разновидности подобного двигателя</i>
+                    </p>
+                </div>
+                <img src="ruletka.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+            </div>
+        </div>
+
+
+
+        <div class="w3-container" id="where" style="padding-bottom:32px;">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ТИПЫ СТАВОК</span></h5>
+                <table class="wikitable plainrowheaders" border="2">
+                    <tbody>
+                        <tr>
+                            <th>Название на английском
+                            </th>
+                            <th>Перевод на русский
+                            </th>
+                            <th>Описание
+                            </th>
+                            <th>Размещение фишки
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Straight / Single
+                            </td>
+                            <td>Прямая ставка
+                            </td>
+                            <td>Ставка на один номер
+                            </td>
+                            <td>На поле с изображением конкретного номера
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Split
+                            </td>
+                            <td>Сплит / пара
+                            </td>
+                            <td>Ставка на 2 номера, примыкающие друг к другу горизонтально или вертикально (например,
+                                14-17 или 8-9)
+                            </td>
+                            <td>На линию, разделяющую два поля
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Street
+                            </td>
+                            <td>Стрит / улица
+                            </td>
+                            <td>Ставка на 3 идущих подряд числа в горизонтальной линии (например, 7-8-9)
+                            </td>
+                            <td>На линию, отделяющую нумерованное поле от внешней области, но не граничащую с секторами
+                                внешних ставок
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Corner / Square
+                            </td>
+                            <td>Угол / каре / крест
+                            </td>
+                            <td>Ставка на 4 смежных номера
+                            </td>
+                            <td>В точку пересечения выбранных номеров (т.е. на угол)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Six Line / Double Street
+                            </td>
+                            <td>Линия шести / две улицы / линия
+                            </td>
+                            <td>Ставка на 6 идущих подряд номеров, образующих две горизонтальных линии (например,
+                                31-32-33-34-35-36)
+                            </td>
+                            <td>На линию, отделяющую нумерованное поле от внешней области, но не граничащую с секторами
+                                внешних ставок, и обязательно на угол между двумя улицами
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Basket
+                            </td>
+                            <td>Корзина
+                            </td>
+                            <td>Ставка на три номера, из которых хотя бы один — зеро (1-2-0 или 2-3-0 в европейской
+                                рулетке; 1-2-0, 2-3-00 или 0-00-2 в американской рулетке)
+                            </td>
+                            <td>На угол, смежный между тремя полями (в точку их соединения)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>First Four
+                            </td>
+                            <td>Первая четвёрка
+                            </td>
+                            <td>Ставка сразу на четыре номера — 0, 1, 2 и 3; ставка на первую улицу и зеро одновременно
+                            </td>
+                            <td>На угол пересечения сектора зеро, номера 3 и линии, не граничащей с сектором внешних
+                                ставок
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Top Line
+                            </td>
+                            <td>Высшая линия / Корзина на 5 номеров
+                            </td>
+                            <td>Ставка на два сектора с зеро (0 и 00) и первую улицу (1-2-3), доступная лишь в
+                                американской рулетке (итого 0-00-1-2-3)
+                            </td>
+                            <td>На угол пересечения сектора с двойным зеро, номера 3 и линии, не граничащей с сектором
+                                внешних ставок
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><span class="w3-tag">Пора Играть!</span>Если вам 18 лет и вы находить в зравом уме и при памяти.
+                Деньги для ставок не должны быть добыты криминальным путем!</p>
+                <p><strong>Введите</strong> ваши данные для регистрации в игре в нашем казино:</p>
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required
+                            name="Name"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people"
+                            required name="People"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time"
+                            required name="date" value="2020-11-16T20:00"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text"
+                            placeholder="Message \ Special requirements" required name="Message"></p>
+                    <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

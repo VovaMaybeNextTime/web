@@ -1,0 +1,212 @@
+.array{
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+#graph li
+{
+   position:absolute;	
+   list-style:none;
+   background:lightblue;
+   width:40px;
+   text-align:center;
+   border:1px solid black;
+   visibility: hidden;
+   background-image:url(bar-shaded.png);
+   background-repeat:repeat-y;
+}
+
+
+.his_box {
+    width: 400px;
+    height: 220px;
+    border: solid 1px #1E90FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.histogram {
+    display: flex;
+}
+.histogram > div {
+    width: 30px;
+    Height: 200px; 
+    font-size: 14px;
+    text-align: center;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#top{
+    text-align: center;
+}
+
+#inscription{
+    float: left;
+    padding-top: 46px;
+    margin-left: 100px;
+    font-size: 30pt;
+    color: rgb(100, 100, 100);
+}
+#histImg{
+    max-height: 200px; 
+    max-width:200px;
+}
+
+
+
+.sidenav {
+    border-radius: 15px;
+    height: 1200px;
+    width: 160px;
+    background-color: rgb(107, 107, 107);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+
+  .sidenav-right {
+    border-radius: 15px;
+    width: 200px;
+    height: 1200px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav-right a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav-right a:hover {
+    color: #064579;
+  }
+
+  #generateButton{
+      margin-top: 10px;
+      background-color: rgb(255, 74, 74);
+      border-radius: 10px;
+  }
+  #solveButton{
+    margin-top: 10px;
+    background-color: rgb(255, 74, 74);
+    border-radius: 10px;
+  }
+
+  #sortButton{
+    margin-top: 10px;
+    background-color: rgb(255, 74, 74);
+    border-radius: 10px;
+  }
+
+  #sortHide{
+      margin-top: 40px !important;
+  }
+  
+
+/* .histogram> div:nth-child(3n) div {
+    background-color: #ff404b;
+}
+.histogram>div:nth-child(3n+1) div{
+    background-color: #99CCFF;
+}
+.histogram>div:nth-child(3n+2) div{
+    background-color: #F0AD4E;
+}
+
+
+.histogram>div:nth-child(1) div{
+    Flex: 0 0 50%;
+
+
+}
+.histogram>div:nth-child(2) div{
+    flex: 0 0 40%; 
+}
+.histogram>div:nth-child(3) div{
+    flex: 0 0 75%; 
+}
+.histogram>div:nth-child(4) div{
+    flex: 0 0 60%; 
+}
+.histogram>div:nth-child(5) div{
+    flex: 0 0 25%; 
+} */
